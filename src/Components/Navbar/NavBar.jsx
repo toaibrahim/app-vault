@@ -1,14 +1,15 @@
+import { Aperture, Github } from 'lucide-react';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     const links = <>
-                <Link to='/'><li><a>Home</a></li></Link>
-                <li><a>Apps</a></li>
-                <li><a>Installation</a></li>
+          <li className='text-base font-semibold underline text-[#632EE3]'><Link to="/">Home</Link></li>
+          <li className='text-base font-semibold text-black'><Link to="/apps">Apps</Link></li>
+          <li className='text-base font-semibold text-black'><Link to="/installation">Installation</Link></li>
     </>
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar bg-white w-11/12 mx-auto">
             <div className="navbar-start">
               <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -20,7 +21,7 @@ const NavBar = () => {
                   {links}
                 </ul>
               </div>
-              <a className="btn btn-ghost text-xl">daisyUI</a>
+              <a className="btn btn-ghost text-[#632EE3] font-bold "> <Aperture></Aperture> <Link to='/'>APP VAULT</Link> </a>
             </div>
             <div className="navbar-center hidden lg:flex">
               <ul className="menu menu-horizontal px-1">
@@ -28,7 +29,7 @@ const NavBar = () => {
               </ul>
             </div>
             <div className="navbar-end">
-              <a className="btn">Button</a>
+              <a className="btn text-white text-base bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"><Github></Github>  <Link to='https://github.com/toaibrahim'>Contribute</Link> </a>
             </div>
         </div>
     );

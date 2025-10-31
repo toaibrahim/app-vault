@@ -1,0 +1,506 @@
+[
+  {
+    "image": "https://thumbs.dreamstime.com/b/fittrack-fitness-app-logo-track-health-workout-stock-photo-generative-ai-tracking-application-branding-369127674.jpg",
+    "title": "FitTrack",
+    "companyName": "HealthTech Inc",
+    "id": 1,
+    "description": "Track your workouts, calories and progress all in one app.",
+    "size": 45,
+    "reviews": 1250,
+    "ratingAvg": 4.5,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 530 }
+    ]
+  },
+  {
+    "image": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/9c/3a/cb/9c3acb45-1a2e-ff89-6389-e43c6ef34228/source/512x512bb.jpg",
+    "title": "PhotoMaster",
+    "companyName": "PixelWorks LLC",
+    "id": 2,
+    "description": "Edit photos like a pro with filters, stickers and collages.",
+    "size": 60,
+    "reviews": 3420,
+    "ratingAvg": 4.2,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 740 }
+    ]
+  },
+  {
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/428/986/datas/original.jpg",
+    "title": "BudgetBuddy",
+    "companyName": "SmartFinance Co",
+    "id": 3,
+    "description": "Manage your expenses and budgets easily on the go.",
+    "size": 30,
+    "reviews": 890,
+    "ratingAvg": 4.7,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtSWOUe7zbqC84rdma9SQSgQdcrYKYE8uOpQ&s",
+    "title": "MindCalm",
+    "companyName": "WellnessApps Ltd",
+    "id": 4,
+    "description": "Meditation and mindfulness sessions to reduce stress.",
+    "size": 55,
+    "reviews": 2100,
+    "ratingAvg": 4.3,
+    "downloads": 430000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://cdn-1.webcatalog.io/catalog/quickchat/quickchat-icon-filled-256.png?v=1758163896112",
+    "title": "QuickChat",
+    "companyName": "SocialFlow Inc",
+    "id": 5,
+    "description": "Instant messaging with voice & video calls across devices.",
+    "size": 80,
+    "reviews": 5200,
+    "ratingAvg": 4.1,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 550 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 950 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/14/ec/2814ec9a-4674-cd77-0c9e-94189381a83f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1200x600wa.png",
+    "title": "GameOn",
+    "companyName": "FunPlay Studios",
+    "id": 6,
+    "description": "Arcade style endless runner with daily challenges.",
+    "size": 150,
+    "reviews": 8900,
+    "ratingAvg": 4.6,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 1700 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/9PtbRN0nZZbsbGmDot0UV11JUF_f7JsjNPDWlSKJlXlHBrx4537Htz8Zwos-HNhWZ6ZU",
+    "title": "TravelMate",
+    "companyName": "GlobeTrotter Apps",
+    "id": 7,
+    "description": "Plan your trips, book hotels & track flights in one place.",
+    "size": 100,
+    "reviews": 1300,
+    "ratingAvg": 4.4,
+    "downloads": 350000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://m.media-amazon.com/images/I/51ndPwC2iJL.png",
+    "title": "LearnLang",
+    "companyName": "EduTech Solutions",
+    "id": 8,
+    "description": "Interactive language learning with games and live tutors.",
+    "size": 70,
+    "reviews": 4700,
+    "ratingAvg": 4.8,
+    "downloads": 820000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 2600 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/f3ejHit0ZaO2R3f1U0UcFPCSE43NpQ4yeGmfwVX75zKV_2DDnVQTNL4Uin4ZWkaGYr90",
+    "title": "NoteEase",
+    "companyName": "Productify Labs",
+    "id": 9,
+    "description": "Simple, fast, and organized note-taking for productivity.",
+    "size": 40,
+    "reviews": 2100,
+    "ratingAvg": 4.6,
+    "downloads": 640000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 780 }
+    ]
+  },
+  {
+    "image": "https://downloadr2.apkmirror.com/wp-content/uploads/2023/11/14/655707e858f3a_com.weather.radar.forecast.now.png",
+    "title": "WeatherNow",
+    "companyName": "SkyData Co",
+    "id": 10,
+    "description": "Get real-time weather forecasts and storm alerts worldwide.",
+    "size": 50,
+    "reviews": 3200,
+    "ratingAvg": 4.4,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1350 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/ptn70L-cwmI4Kn1YnWAk31VxbAFaX0el3M1MeTMj5veoe4OKolMbR3ZBOw2MXzUoNT7ptloHdZ9BsJIvSecLOQ",
+    "title": "RecipeHub",
+    "companyName": "KitchenSmart Ltd",
+    "id": 11,
+    "description": "Discover and share recipes from around the world.",
+    "size": 90,
+    "reviews": 2500,
+    "ratingAvg": 4.7,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1260 }
+    ]
+  },
+  {
+    "image": "https://images.dwncdn.net/images/t_app-icon-l/p/499343e1-35a8-4646-af09-6e6e1940e939/3569563541/20418_4-78493284-imgingest-2361787474109651561.png",
+    "title": "DocuSafe",
+    "companyName": "SecureVault Inc",
+    "id": 12,
+    "description": "Store, encrypt, and manage important documents safely.",
+    "size": 65,
+    "reviews": 1900,
+    "ratingAvg": 4.5,
+    "downloads": 460000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 760 }
+    ]
+  },
+  {
+    "image": "https://cdn.tgdd.vn/Files/2021/11/07/1396346/music-flow-bluetooth-va-kha-nang-cua-no-1.jpg",
+    "title": "MusicFlow",
+    "companyName": "BeatSync Studios",
+    "id": 13,
+    "description": "Stream your favorite songs and create playlists easily.",
+    "size": 120,
+    "reviews": 11000,
+    "ratingAvg": 4.2,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/zpO2TM18Hbr5_sUxLlV5GqxpPtGEhDLN1XOokiTf7AVB8X1-3olfCGmsHc2qmisWbzg",
+    "title": "BookNest",
+    "companyName": "Readify Labs",
+    "id": 14,
+    "description": "Access thousands of ebooks and audiobooks anywhere.",
+    "size": 85,
+    "reviews": 7600,
+    "ratingAvg": 4.6,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3400 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/CH_XUrL7OA4E49kFjcnZyzhVWuOEuBCZ1mfUZxY8ey8AyGnIBSuprVM3rKeVdcbllw",
+    "title": "CryptoTrack",
+    "companyName": "BlockBase Ltd",
+    "id": 15,
+    "description": "Track real-time cryptocurrency prices and manage portfolios.",
+    "size": 75,
+    "reviews": 3100,
+    "ratingAvg": 4.5,
+    "downloads": 870000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1420 }
+    ]
+  },
+  {
+    "image": "https://www.shopsmart.com.au/static/Shopsmart3(S)-14b1290fc77f61f8277a4036d0090bb2.jpg",
+    "title": "ShopSmart",
+    "companyName": "eMart Global",
+    "id": 16,
+    "description": "Compare prices and get the best deals on your favorite items.",
+    "size": 90,
+    "reviews": 5400,
+    "ratingAvg": 4.4,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 1800 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/c7cl-3wGY1RyqbKxaTp07clI5rnO-vjIZcEmVNDYKu_VkCK1-SunawYyYM19b2k9N0ce",
+    "title": "WorkFlowy",
+    "companyName": "Taskify Apps",
+    "id": 17,
+    "description": "Organize your to-dos, projects, and ideas in one workspace.",
+    "size": 52,
+    "reviews": 1800,
+    "ratingAvg": 4.6,
+    "downloads": 420000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 820 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/pet-care-logo-design-vector-template_476121-211.jpg",
+    "title": "PetCare",
+    "companyName": "AnimalLovers Co",
+    "id": 18,
+    "description": "Track vaccinations, vet visits, and pet health easily.",
+    "size": 40,
+    "reviews": 900,
+    "ratingAvg": 4.7,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/zGqwmkaDDbQKdcz0bRAJ7_95EySRetWL8QwvtEoVLZ2fbsrDCJkfyP-RggxuBYNtIA=w240-h480-rw",
+    "title": "PlantPal",
+    "companyName": "GreenGrow Labs",
+    "id": 19,
+    "description": "Identify and care for your houseplants using AI recognition.",
+    "size": 68,
+    "reviews": 1500,
+    "ratingAvg": 4.6,
+    "downloads": 360000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 670 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/dar3zPlTbJYfHtH0hG4WOOK28ujJTj5kz51SwDuZc-HrmSgjZyavEDY_k4jmiJ9QwFo",
+    "title": "SleepCycle",
+    "companyName": "DreamSoft",
+    "id": 20,
+    "description": "Track sleep quality and wake up feeling refreshed.",
+    "size": 50,
+    "reviews": 6200,
+    "ratingAvg": 4.5,
+    "downloads": 1700000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 2730 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/06/82/060682ab-1ce4-21b4-6f0f-00a58c621d58/AppIcon-0-1x_U007epad-0-1-0-sRGB-85-220-0.png/1200x600wa.png",
+    "title": "MealPrepPro",
+    "companyName": "NutriApps Co",
+    "id": 21,
+    "description": "Plan your weekly meals and generate grocery lists automatically.",
+    "size": 65,
+    "reviews": 3000,
+    "ratingAvg": 4.7,
+    "downloads": 700000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1680 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5DKJZDPC1nvSqE0pU4frwwwdiSTnlRT5ysw&s",
+    "title": "SkillBoost",
+    "companyName": "TalentGrow Ltd",
+    "id": 22,
+    "description": "Upskill yourself with mini-courses from industry experts.",
+    "size": 90,
+    "reviews": 5000,
+    "ratingAvg": 4.8,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 3120 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG2FgU0Dp4hFq11FqnMnE8cROVFyQjXNKh7Q&s",
+    "title": "FitMeal",
+    "companyName": "HealthyLife Inc",
+    "id": 23,
+    "description": "Find nutritious meal ideas that match your fitness goals.",
+    "size": 72,
+    "reviews": 2100,
+    "ratingAvg": 4.6,
+    "downloads": 440000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 970 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/jfaItJLLOp44j4eUt4JSUulZdMkg-lPlfm0QqHDiwBBLUc5XuQuf_ier-MJAL4a1Rg",
+    "title": "DriveSafe",
+    "companyName": "AutoSense Corp",
+    "id": 24,
+    "description": "Monitor your driving habits and improve road safety.",
+    "size": 80,
+    "reviews": 3100,
+    "ratingAvg": 4.5,
+    "downloads": 520000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1530 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/GMs9uAwTu5TFLQZgWZfRmMAi1cS-wEOHniBfKOl90moXU_pfb28lcqPUiJNmu-8CSWLNsFcyeX_-K7VDMeNt8n8",
+    "title": "DailyQuotes",
+    "companyName": "MindGrow Apps",
+    "id": 25,
+    "description": "Start your day with inspiring quotes and affirmations.",
+    "size": 35,
+    "reviews": 1400,
+    "ratingAvg": 4.7,
+    "downloads": 310000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "image": "https://media.licdn.com/dms/image/v2/C560BAQFaaHP2db3G0A/company-logo_200_200/company-logo_200_200/0/1631324328137?e=2147483647&v=beta&t=eX2OP0u-0mVYRmWA_uCWmx9k6YfPt6_Zv6wwhyKYqCo",
+    "title": "MindMatch",
+    "companyName": "PsyCare Ltd",
+    "id": 26,
+    "description": "Discover your personality and improve emotional wellness.",
+    "size": 55,
+    "reviews": 2200,
+    "ratingAvg": 4.4,
+    "downloads": 580000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 730 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlJgTCHVvaq59tSvDpqds4moeNOI5N06dMmoiKWDIMzB_iKnT7w3sQxKd0NfBRY5QWvt8&usqp=CAU",
+    "title": "FocusTime",
+    "companyName": "ZenWorks Co",
+    "id": 27,
+    "description": "Boost productivity with the Pomodoro timer and focus tools.",
+    "size": 48,
+    "reviews": 3100,
+    "ratingAvg": 4.8,
+    "downloads": 870000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1760 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/hpefg8dAGtQdQpEMA3JVcuPADN83v3heL_9q1Z4OWvqu3-fwtc-R18_x77yJCwet7Q=w526-h296-rw",
+    "title": "GoalTrack",
+    "companyName": "Motivo Apps",
+    "id": 28,
+    "description": "Set, monitor, and achieve your life and career goals.",
+    "size": 50,
+    "reviews": 2000,
+    "ratingAvg": 4.6,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 920 }
+    ]
+  }
+]

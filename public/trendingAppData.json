@@ -1,0 +1,147 @@
+[
+  {
+    "image": "https://play-lh.googleusercontent.com/XbyPYUvaiayhseYJkxprcSRwnRCm3wtlEQq9SW7eQ-aCaYCbqi3NSweLJgzK_i1u2EY=w240-h480-rw",
+    "title": "FitTrack",
+    "companyName": "HealthTech Inc",
+    "id": 1,
+    "description": "Track your workouts, calories and progress all in one app.",
+    "size": 45,             
+    "reviews": 1250,
+    "ratingAvg": 4.5,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 530 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/tjwEd3obLbmuisYL0D47eGbxjkCA9MHsDfIyzHwkFSdOmn5KKCuOXXmpuLfB2CaAPF5E",
+    "title": "PhotoMaster",
+    "companyName": "PixelWorks LLC",
+    "id": 2,
+    "description": "Edit photos like a pro with filters, stickers and collages.",
+    "size": 60,
+    "reviews": 3420,
+    "ratingAvg": 4.2,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 740 }
+    ]
+  },
+  {
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/428/986/datas/original.jpg",
+    "title": "BudgetBuddy",
+    "companyName": "SmartFinance Co",
+    "id": 3,
+    "description": "Manage your expenses and budgets easily on the go.",
+    "size": 30,
+    "reviews": 890,
+    "ratingAvg": 4.7,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/93MjJpxjHq6y_6vJ75JDzPn61YWUA2xT7_XnD5r5B1F368QoOut3fZDLih2HMKcg1h8B=w240-h480-rw",
+    "title": "MindCalm",
+    "companyName": "WellnessApps Ltd",
+    "id": 4,
+    "description": "Meditation and mindfulness sessions to reduce stress.",
+    "size": 55,
+    "reviews": 2100,
+    "ratingAvg": 4.3,
+    "downloads": 430000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://cdn-1.webcatalog.io/catalog/quickchat/quickchat-icon-filled-256.png?v=1758163896112",
+    "title": "QuickChat",
+    "companyName": "SocialFlow Inc",
+    "id": 5,
+    "description": "Instant messaging with voice & video calls across devices.",
+    "size": 80,
+    "reviews": 5200,
+    "ratingAvg": 4.1,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 550 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 950 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/14/ec/2814ec9a-4674-cd77-0c9e-94189381a83f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1200x600wa.png",
+    "title": "GameOn",
+    "companyName": "FunPlay Studios",
+    "id": 6,
+    "description": "Arcade style endless runner with daily challenges.",
+    "size": 150,
+    "reviews": 8900,
+    "ratingAvg": 4.6,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 1700 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/9PtbRN0nZZbsbGmDot0UV11JUF_f7JsjNPDWlSKJlXlHBrx4537Htz8Zwos-HNhWZ6ZU",
+    "title": "TravelMate",
+    "companyName": "GlobeTrotter Apps",
+    "id": 7,
+    "description": "Plan your trips, book hotels & track flights in one place.",
+    "size": 100,
+    "reviews": 1300,
+    "ratingAvg": 4.4,
+    "downloads": 350000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://m.media-amazon.com/images/I/51ndPwC2iJL.png",
+    "title": "LearnLang",
+    "companyName": "EduTech Solutions",
+    "id": 8,
+    "description": "Interactive language learning with games and live tutors.",
+    "size": 70,
+    "reviews": 4700,
+    "ratingAvg": 4.8,
+    "downloads": 820000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 2600 }
+    ]
+  }
+  
+]
