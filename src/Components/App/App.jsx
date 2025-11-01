@@ -11,8 +11,8 @@ const App = ({eachAppData}) => {
         <Link to={`/appDetails/${id}`}>
           <div>
             <div className="card bg-base-200 shadow-sm">
-                 <figure className='w-[300px] h-[300px] m-4 shadow-base-200 border-2 border-base-300 mx-auto'>
-                   <img className='w-full h-full'
+                 <figure className='h-[300px] m-4 shadow-base-200 border-2 border-base-300 mx-auto'>
+                   <img className='px-3 w-full h-full'
                      src={image}
                      alt="Shoes" />
                  </figure>

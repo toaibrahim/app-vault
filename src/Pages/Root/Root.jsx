@@ -1,26 +1,35 @@
 import React from 'react';
 import NavBar from '../../Components/Navbar/Navbar';
-import { Outlet, useNavigate } from 'react-router-dom';
+import { Outlet, useNavigation } from 'react-router-dom';
 import Footer from '../../Components/Footer/Footer';
+import { ToastContainer } from 'react-toastify';
+import { ClipLoader } from "react-spinners";
+
+
+function GlobalLoader() {
+    const navigation = useNavigation();
+    const isLoading = navigation.state === "loading";
+    if (isLoading) {
+      return (
+        <div className="fixed inset-0 flex items-center justify-center bg-white/70 z-50">
+          <ClipLoader color="#00D390" loading={isLoading} size={60} />
+        </div>
+      );
+    }
+    return null;
+}
 
 const Root = () => {
-    const navigation = useNavigate();
-  const isLoading = navigation.state === "loading";
+    
     return (
         <div>
 
-            {
-                isLoading && (
-                    <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-white/70 z-50">
-                      <div className="animate-spin h-10 w-10 border-4 border-blue-500 border-t-transparent rounded-full"></div>
-                    </div>
-                )
-            }
-
+            
+            <GlobalLoader></GlobalLoader>
             <NavBar></NavBar>
             <Outlet></Outlet>
             <Footer></Footer>
-            
+            <ToastContainer />
         </div>
     );
 };
