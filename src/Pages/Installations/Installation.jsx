@@ -2,13 +2,14 @@ import React from 'react';
 import { ChevronDown, Download, Star } from 'lucide-react';
 import { removeFromStoredDB } from '../../Utility/addToDB';
 
-const Installation = ({eachInstalledApp}) => {
+const Installation = ({eachInstalledApp,setInstallationList}) => {
     const {id,image,title,downloads,ratingAvg,description,size} = eachInstalledApp;
 
     console.log(eachInstalledApp);
     
     const handleUninstall = (id) => {
         removeFromStoredDB(id);
+        setInstallationList(items => items.filter(item => String(item.id) !== String(id)));
         // console.log(typeof(id));
         
     }

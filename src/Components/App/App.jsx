@@ -2,10 +2,11 @@ import React from 'react';
 import { ArrowDownToLine, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-const App = ({eachAppData}) => {
+const App = ({eachAppData,filteredApps}) => {
     
-    const {id,title,image,description,downloads,ratingAvg} = eachAppData
-    // console.log(title);
+    const {id,title,image,description,downloads,ratingAvg} = eachAppData;
+    // const {id,title,image,description,downloads,ratingAvg} = filteredApps;
+    console.log(filteredApps);
     
     return (
         <Link to={`/appDetails/${id}`}>

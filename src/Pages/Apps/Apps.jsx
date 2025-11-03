@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import App from '../../Components/App/App';
+import noResult from '../../assets/search.svg'
 
 const Apps = () => {
     const allAppsData = useLoaderData()
+    const [searchTerm,setSearchTerm] = useState("")
+    const [filteredApps,setFilteredApps] = useState()
     // console.log(allAppsData);
+    useEffect(()=>{
+        const result = allAppsData.filter(eachApp => eachApp.title.toLowerCase().includes(searchTerm.toLowerCase()))
+        setFilteredApps(result)
+    },[searchTerm])
     
     return (
         <div className='bg-base-300'>
@@ -12,7 +19,11 @@ const Apps = () => {
                 <h2 className='text-5xl font-bold mb-4'>Our All Applications</h2>
                 <p className='text-[#627382] text-xl mb-10'>Explore All Apps on the Market developed by us. We code for Millions</p>
                 <div className='flex justify-between items-center mt-11'>
-                    <h3 className='text-2xl font-semibold'>(132) Apps Found</h3>
+                    <h3 className='text-2xl font-semibold'>
+                        ({
+                            Array.isArray(filteredApps) && filteredApps.length > 0 ? (filteredApps.length): (allAppsData.length)
+                        })
+                        Apps Found</h3>
                     <label className="input">
                         <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                           <g
@@ -26,14 +37,27 @@ const Apps = () => {
                             <path d="m21 21-4.3-4.3"></path>
                           </g>
                         </svg>
-                        <input type="search" required placeholder="Search" />
+                        <input type="search" required placeholder="Search App..."
+                            value={searchTerm}
+                            onChange={(e) => setSearchTerm(e.target.value)}
+                        />
                     </label>
                 </div>
 
                 <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-5'>
                     {
-                        allAppsData.map((eachAppData,index) => <App key={index} eachAppData={eachAppData}></App>)
+                        Array.isArray(filteredApps) && filteredApps.length > 0 ? filteredApps.map((eachAppData,index) => <App key={index} eachAppData={eachAppData} filteredApps={filteredApps}></App>) : <div className='flex justify-center items-center'>
+                            <div>
+                                <img className='mx-auto' src={noResult} alt="" />
+                                <p className="text-center text-gray-500 text-5xl font-bold mt-10">
+                                    No result found
+                                </p>
+                            </div>
+                        </div>
+                        
                     }
+
+
                 </div>
             
             </div>

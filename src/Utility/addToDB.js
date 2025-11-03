@@ -25,11 +25,9 @@ const addToStoredDB =(id)=> {
 
 const removeFromStoredDB = (id) => {
   const storedAppData = getStoredApp();
-
-  if (storedAppData.includes(id)) {
-    const updatedData = storedAppData.filter(item => String(item) !== String(id));
-    const data = JSON.stringify(updatedData)
-    localStorage.setItem('installList', data);
+  const updatedData = storedAppData.filter(item => String(item) !== String(id));
+  if (updatedData.length !== storedAppData.length) {
+    localStorage.setItem('installList', JSON.stringify(updatedData));
     toast('App successfully removed');
   } else {
     toast('This ID does not exist');

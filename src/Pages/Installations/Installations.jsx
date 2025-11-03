@@ -37,7 +37,7 @@ const Installations = () => {
                 <p className='text-[#627382] text-xl mb-10'>Explore All Trending Apps on the Market developed by us</p>
 
                 <div className='flex justify-between items-center mt-11'>
-                    <h3 className='text-2xl font-semibold'>1 Apps Found</h3>
+                    <h3 className='text-2xl font-semibold'>{installationList.length} Apps Found</h3>
                     <div className="flex justify-center items-center mb-10">
                       <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn m-1 bg-base-200 border border-[#627382] text-[#627382]">{sort?sort:"Sort By"} <ChevronDown></ChevronDown> </div>
@@ -54,7 +54,7 @@ const Installations = () => {
               {/* List start here */}
 
               {
-                installationList.map((eachInstalledApp,index) => <Installation key={index} eachInstalledApp={eachInstalledApp}></Installation>)
+                installationList.map((eachInstalledApp,index) => <Installation key={index} eachInstalledApp={eachInstalledApp} setInstallationList={setInstallationList}></Installation>)
                 
               }
               
